@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    background-color:dimgray;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col, .col-2, .col-3 {
+    height: 50px;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
